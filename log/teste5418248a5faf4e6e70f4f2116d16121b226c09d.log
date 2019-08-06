@@ -1,0 +1,394 @@
+2019-07-17 18:41:48:083 [Appium] Welcome to Appium v1.14.0
+2019-07-17 18:41:48:085 [Appium] Non-default server args:
+2019-07-17 18:41:48:085 [Appium]   port: 4700
+2019-07-17 18:41:48:087 [Appium]   sessionOverride: true
+2019-07-17 18:41:48:087 [Appium]   logFile: ../log/teste5418248a5faf4e6e70f4f2116d16121b226c09d.log
+2019-07-17 18:41:48:087 [Appium]   noReset: true
+2019-07-17 18:41:48:088 [Appium] Deprecated server args:
+2019-07-17 18:41:48:088 [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-07-17 18:41:48:089 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-07-17 18:41:48:089 [Appium]   noReset: true
+2019-07-17 18:41:48:134 [Appium] Appium REST http interface listener started on 0.0.0.0:4700
+2019-07-17 18:42:05:515 [HTTP] --> POST /wd/hub/session
+2019-07-17 18:42:05:516 [HTTP] {"capabilities":{"firstMatch":[{"appium:automationName":"XCUITest","appium:newCommandTimeout":"2000","appium:udid":"e5418248a5faf4e6e70f4f2116d16121b226c09d","appium:bundleId":"com.daojia.jz.app","appium:deviceName":"Fency's iPhone","appium:platformVersion":"12.3.1","platformName":"iOS"}]},"desiredCapabilities":{"deviceName":"Fency's iPhone","udid":"e5418248a5faf4e6e70f4f2116d16121b226c09d","automationName":"XCUITest","newCommandTimeout":"2000","platformVersion":"12.3.1","platformName":"iOS","bundleId":"com.daojia.jz.app"}}
+2019-07-17 18:42:05:519 [W3C] Calling AppiumDriver.createSession() with args: [{"deviceName":"Fency's iPhone","udid":"e5418248a5faf4e6e70f4f2116d16121b226c09d","automationName":"XCUITest","newCommandTimeout":"2000","platformVersion":"12.3.1","platformName":"iOS","bundleId":"com.daojia.jz.app"},null,{"firstMatch":[{"appium:automationName":"XCUITest","appium:newCommandTimeout":"2000","appium:udid":"e5418248a5faf4e6e70f4f2116d16121b226c09d","appium:bundleId":"com.daojia.jz.app","appium:deviceName":"Fency's iPhone","appium:platformVersion":"12.3.1","platformName":"iOS"}]}]
+2019-07-17 18:42:05:520 [BaseDriver] Event 'newSessionRequested' logged at 1563388925520 (02:42:05 GMT+0800 (China Standard Time))
+2019-07-17 18:42:05:525 [BaseDriver] The capabilities ["noReset"] are not standard capabilities and should have an extension prefix
+2019-07-17 18:42:05:529 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2019-07-17 18:42:06:104 [Appium] Appium v1.14.0 creating new XCUITestDriver (v2.116.3) session
+2019-07-17 18:42:06:104 [Appium] Capabilities:
+2019-07-17 18:42:06:104 [Appium]   platformName: iOS
+2019-07-17 18:42:06:105 [Appium]   noReset: true
+2019-07-17 18:42:06:105 [Appium]   automationName: XCUITest
+2019-07-17 18:42:06:105 [Appium]   newCommandTimeout: 2000
+2019-07-17 18:42:06:105 [Appium]   udid: e5418248a5faf4e6e70f4f2116d16121b226c09d
+2019-07-17 18:42:06:105 [Appium]   bundleId: com.daojia.jz.app
+2019-07-17 18:42:06:106 [Appium]   deviceName: Fency's iPhone
+2019-07-17 18:42:06:106 [Appium]   platformVersion: 12.3.1
+2019-07-17 18:42:06:110 [BaseDriver] W3C capabilities {"alwaysMatch":{"platformNa... and MJSONWP desired capabilities {"noReset":true,"deviceName... were provided
+2019-07-17 18:42:06:110 [BaseDriver] Creating session with W3C capabilities: {"alwaysMatch":{"platformNa...
+2019-07-17 18:42:06:112 [BaseDriver] Number capability passed in as string. Functionality may be compromised.
+2019-07-17 18:42:06:117 [BaseDriver] Capability 'newCommandTimeout' changed from string ('2000') to integer (2000). This may cause unexpected behavior
+2019-07-17 18:42:06:123 [BaseDriver] Session created with session id: c3a56fbe-a2e0-44ba-9934-2c2b3c3a06ef
+2019-07-17 18:42:06:187 [XCUITest] Current user: 'hu'
+2019-07-17 18:42:06:214 [XCUITest] Available devices: e5418248a5faf4e6e70f4f2116d16121b226c09d
+2019-07-17 18:42:06:214 [XCUITest] Creating iDevice object with udid 'e5418248a5faf4e6e70f4f2116d16121b226c09d'
+2019-07-17 18:42:06:215 [XCUITest] Determining device to run tests on: udid: 'e5418248a5faf4e6e70f4f2116d16121b226c09d', real device: true
+2019-07-17 18:42:06:216 [XCUITest] Normalized platformVersion capability value '12.3.1' to '12.3'
+2019-07-17 18:42:06:394 [BaseDriver] Event 'xcodeDetailsRetrieved' logged at 1563388926394 (02:42:06 GMT+0800 (China Standard Time))
+2019-07-17 18:42:06:398 [BaseDriver] Event 'appConfigured' logged at 1563388926397 (02:42:06 GMT+0800 (China Standard Time))
+2019-07-17 18:42:06:399 [BaseDriver] Event 'resetStarted' logged at 1563388926398 (02:42:06 GMT+0800 (China Standard Time))
+2019-07-17 18:42:06:399 [XCUITest] Reset: fullReset not set. Leaving as is
+2019-07-17 18:42:06:400 [BaseDriver] Event 'resetComplete' logged at 1563388926399 (02:42:06 GMT+0800 (China Standard Time))
+2019-07-17 18:42:06:402 [iOSLog] Attempting iOS device log capture via libimobiledevice idevicesyslog
+2019-07-17 18:42:06:402 [iOSLog] Starting iOS device log capture with: 'idevicesyslog'
+2019-07-17 18:42:06:692 [XCUITest] Crash reports root '/Users/hu/Library/Logs/CrashReporter/MobileDevice/Fency’s iPhone' does not exist. Got nothing to gather.
+2019-07-17 18:42:06:693 [BaseDriver] Event 'logCaptureStarted' logged at 1563388926692 (02:42:06 GMT+0800 (China Standard Time))
+2019-07-17 18:42:06:694 [XCUITest] Setting up real device
+2019-07-17 18:42:06:695 [XCUITest] Calling: 'ios-deploy --exists --id e5418248a5faf4e6e70f4f2116d16121b226c09d --bundle_id com.daojia.jz.app'
+2019-07-17 18:42:07:044 [XCUITest] Stdout: '[....] Waiting for iOS device to be connected
+2019-07-17 18:42:07:045 [XCUITest] [....] Using e5418248a5faf4e6e70f4f2116d16121b226c09d (D11AP, iPhone 7 Plus, iphoneos, arm64) a.k.a. 'Fency’s iPhone'.
+2019-07-17 18:42:07:045 [XCUITest] true
+2019-07-17 18:42:07:045 [XCUITest] '
+2019-07-17 18:42:07:047 [XCUITest] Using WDA path: '/usr/local/Cellar/node@8/8.16.0/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2019-07-17 18:42:07:047 [XCUITest] Using WDA agent: '/usr/local/Cellar/node@8/8.16.0/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj'
+2019-07-17 18:42:07:144 [XCUITest] 'pgrep -if iproxy[[:space:]]+[0-9]+[[:space:]]+8100[[:space:]]+e5418248a5faf4e6e70f4f2116d16121b226c09d' didn't detect any matching processes. Return code: 1
+2019-07-17 18:42:07:145 [XCUITest] No obsolete cached processes from previous WDA sessions listening on port 8100 have been found
+2019-07-17 18:42:12:231 [XCUITest] Parsed BUILD_DIR configuration value: '/Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Build/Products'
+2019-07-17 18:42:12:231 [XCUITest] Got derived data root: '/Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa'
+2019-07-17 18:42:12:232 [XCUITest] Starting WebDriverAgent initialization with the synchronization key '/Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa'
+2019-07-17 18:42:12:234 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:12:235 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:12:262 [WD Proxy] Got an unexpected response: {"errno":"ECONNREFUSED","code":"ECONNREFUSED","syscall":"connect","address":"127.0.0.1","port":8100}
+2019-07-17 18:42:12:263 [XCUITest] WDA is not listening at 'http://localhost:8100/'
+2019-07-17 18:42:12:263 [XCUITest] WDA is currently not running. There is nothing to cache
+2019-07-17 18:42:12:264 [XCUITest] Trying to start WebDriverAgent 1 times with 10000ms interval
+2019-07-17 18:42:12:264 [XCUITest] These values can be customized by changing wdaStartupRetries/wdaStartupRetryInterval capabilities
+2019-07-17 18:42:12:265 [BaseDriver] Event 'wdaStartAttempted' logged at 1563388932264 (02:42:12 GMT+0800 (China Standard Time))
+2019-07-17 18:42:12:265 [XCUITest] Launching WebDriverAgent on the device
+2019-07-17 18:42:12:267 [XCUITest] Carthage found: '/usr/local/bin/carthage'
+2019-07-17 18:42:12:268 [XCUITest] Killing running processes 'xcodebuild.*e5418248a5faf4e6e70f4f2116d16121b226c09d, iproxy 8100' for the device e5418248a5faf4e6e70f4f2116d16121b226c09d...
+2019-07-17 18:42:12:296 [XCUITest] 'pgrep -ifn xcodebuild.*e5418248a5faf4e6e70f4f2116d16121b226c09d' didn't detect any matching processes. Return code: 1
+2019-07-17 18:42:12:322 [XCUITest] 'pgrep -ifn iproxy 8100' didn't detect any matching processes. Return code: 1
+2019-07-17 18:42:12:323 [XCUITest] Starting iproxy to forward traffic from local port 8100 to device port 8100 over USB for the device e5418248a5faf4e6e70f4f2116d16121b226c09d
+2019-07-17 18:42:12:637 [XCUITest] iProxy is running and is listening on port #8100
+2019-07-17 18:42:12:642 [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/Cellar/node@8/8.16.0/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa -destination id=e5418248a5faf4e6e70f4f2116d16121b226c09d IPHONEOS_DEPLOYMENT_TARGET=12.3 GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/usr/local/Cellar/node@8/8.16.0/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2019-07-17 18:42:12:644 [XCUITest] Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+2019-07-17 18:42:13:277 [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+2019-07-17 18:42:13:278 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:13:279 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:13:295 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-07-17 18:42:14:299 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:14:300 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:14:309 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-07-17 18:42:14:722 [XCUITest] Log file for xcodebuild test: /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Logs/Test/Test-WebDriverAgentRunner-2019.07.18_02-42-14-+0800.xcresult/2_Test/Diagnostics/WebDriverAgentRunner-67480153-DAC0-468B-9CC7-00564BF4CDD3/WebDriverAgentRunner-4415D498-30E7-49A3-998F-A6AC587C6621/Session-WebDriverAgentRunner-2019-07-18_024214-dMuMLd.log
+2019-07-17 18:42:15:311 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:15:312 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:15:320 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-07-17 18:42:16:322 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:16:322 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:16:331 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-07-17 18:42:16:475 [Xcode] 2019-07-18 02:42:16.474 xcodebuild[79253:7145682]  iPhoneConnect: 📱<DVTiOSDevice (0x7fb1ebd5d500), Fency’s iPhone, iPhone, 12.3.1 (16F203), e5418248a5faf4e6e70f4f2116d16121b226c09d> failed to install /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Build/Products/Debug-iphoneos/WebDriverAgentRunner-Runner.app - error Error Domain=com.apple.dtdevicekit Code=-402620395 "App installation failed" UserInfo={NSLocalizedDescription=App installation failed, com.apple.dtdevicekit.stacktrace=(
+2019-07-17 18:42:16:475 [Xcode] 	0   DTDeviceKitBase                     0x0000000119dcfa56 DTDKCreateNSError + 113
+2019-07-17 18:42:16:475 [Xcode] 	1   DTDeviceKitBase                     0x0000000119dd02c5 DTDK_AMDErrorToNSError + 1177
+2019-07-17 18:42:16:476 [Xcode] 	2   DTDeviceKitBase                     0x0000000119e10585 __90-[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:]_block_invoke + 158
+2019-07-17 18:42:16:476 [Xcode] 	3   DVTFoundation                       0x000000010d794411 DVTInvokeWithStrongOwnership + 73
+2019-07-17 18:42:16:476 [Xcode] 	4   DTDeviceKitBase                     0x0000000119e102b2 -[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:] + 1439
+2019-07-17 18:42:16:477 [Xcode] 	5   IDEiOSSupportCore                   0x0000000119d08279 __118-[DVTiOSDevice(DVTiPhoneApplicationInstallation) processAppInstallSet:appUninstallSet:installOptions:completionBlock:]_block_invoke.338 + 4146
+2019-07-17 18:42:16:477 [Xcode] 	6   DVTFoundation                       0x000000010d8c433e __DVTDispatchAsync_block_invoke + 801
+2019-07-17 18:42:16:477 [Xcode] 	7   libdispatch.dylib                   0x00007fff61ed15f8 _dispatch_call_block_and_release + 12
+2019-07-17 18:42:16:478 [Xcode] 	8   libdispatch.dylib                   0x00007fff61ed263d _dispatch_client_callout + 8
+2019-07-17 18:42:16:478 [Xcode] 	9   libdispatch.dylib                   0x00007fff61ed88e0 _dispatch_lane_serial_drain + 602
+2019-07-17 18:42:16:478 [Xcode] 	10  libdispatch.dylib                   0x00007fff61ed9396 _dispatch_lane_invoke + 385
+2019-07-17 18:42:16:479 [Xcode] 	11  libdispatch.dylib                   0x00007fff61ee16ed _dispatch_workloop_worker_thread + 598
+2019-07-17 18:42:16:479 [Xcode] 	12  libsystem_pthread.dylib             0x00007fff62112611 _pthread_wqthread + 421
+2019-07-17 18:42:16:480 [Xcode] 	13  libsystem_pthread.dylib             0x00007fff621123fd start_wqthread + 13
+2019-07-17 18:42:16:483 [Xcode] ), NSLocalizedRecoverySuggestion=A valid provisioning profile for this executable was not found., NSLocalizedFailureReason=A valid provisioning profile for this executable was not found.}
+2019-07-17 18:42:16:484 [Xcode] 
+2019-07-17 18:42:16:508 [Xcode] 2019-07-18 02:42:16.484 xcodebuild[79253:7145641] [MT] IDETestOperationsObserverDebug: 1.775 elapsed -- Testing started completed.
+2019-07-17 18:42:16:509 [Xcode] 2019-07-18 02:42:16.484 xcodebuild[79253:7145641] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2019-07-17 18:42:16:509 [Xcode] 2019-07-18 02:42:16.484 xcodebuild[79253:7145641] [MT] IDETestOperationsObserverDebug: 1.775 sec, +1.775 sec -- end
+2019-07-17 18:42:16:509 [Xcode] 2019-07-18 02:42:16.486 xcodebuild[79253:7145641] Error Domain=com.apple.dtdevicekit Code=-402620395 "App installation failed" UserInfo={NSLocalizedDescription=App installation failed, com.apple.dtdevicekit.stacktrace=(
+2019-07-17 18:42:16:510 [Xcode] 	0   DTDeviceKitBase                     0x0000000119dcfa56 DTDKCreateNSError + 113
+2019-07-17 18:42:16:510 [Xcode] 	1   DTDeviceKitBase                     0x0000000119dd02c5 DTDK_AMDErrorToNSError + 1177
+2019-07-17 18:42:16:510 [Xcode] 	2   DTDeviceKitBase                     0x0000000119e10585 __90-[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:]_block_invoke + 158
+2019-07-17 18:42:16:510 [Xcode] 	3   DVTFoundation                       0x000000010d794411 DVTInvokeWithStrongOwnership + 73
+2019-07-17 18:42:16:511 [Xcode] 	4   DTDeviceKitBase                     0x0000000119e102b2 -[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:] + 1439
+2019-07-17 18:42:16:511 [Xcode] 	5   IDEiOSSupportCore                   0x0000000119d08279 __118-[DVTiOSDevice(DVTiPhoneApplicationInstallation) processAppInstallSet:appUninstallSet:installOptions:completionBlock:]_block_invoke.338 + 4146
+2019-07-17 18:42:16:511 [Xcode] 	6   DVTFoundation                       0x000000010d8c433e __DVTDispatchAsync_block_invoke + 801
+2019-07-17 18:42:16:512 [Xcode] 	7   libdispatch.dylib                   0x00007fff61ed15f8 _dispatch_call_block_and_release + 12
+2019-07-17 18:42:16:513 [Xcode] 	8   libdispatch.dylib                   0x00007fff61ed263d _dispatch_client_callout + 8
+2019-07-17 18:42:16:513 [Xcode] 	9   libdispatch.dylib                   0x00007fff61ed88e0 _dispatch_lane_serial_drain + 602
+2019-07-17 18:42:16:514 [Xcode] 	10  libdispatch.dylib                   0x00007fff61ed9396 _dispatch_lane_invoke + 385
+2019-07-17 18:42:16:514 [Xcode] 	11  libdispatch.dylib                   0x00007fff61ee16ed _dispatch_workloop_worker_thread + 598
+2019-07-17 18:42:16:514 [Xcode] 	12  libsystem_pthread.dylib             0x00007fff62112611 _pthread_wqthread + 421
+2019-07-17 18:42:16:515 [Xcode] 	13  libsystem_pthread.dylib             0x00007fff621123fd start_wqthread + 13
+2019-07-17 18:42:16:515 [Xcode] ), NSLocalizedRecoverySuggestion=A valid provisioning profile for this executable was not found., NSLocalizedFailureReason=A valid provisioning profile for this executable was not found.}
+2019-07-17 18:42:16:515 [Xcode] 
+2019-07-17 18:42:16:516 [Xcode] Testing failed:
+2019-07-17 18:42:16:516 [Xcode] 	Provisioning profile "iOS Team Provisioning Profile: com.fency.WebDriverAgentRunner" expired on Jul 17, 2019. (in target 'WebDriverAgentRunner')
+2019-07-17 18:42:16:517 [Xcode] 	WebDriverAgentRunner:
+2019-07-17 18:42:16:518 [Xcode] 		WebDriverAgentRunner-Runner.app encountered an error (Failed to install or launch the test runner. (Underlying error: App installation failed. A valid provisioning profile for this executable was not found.))
+2019-07-17 18:42:16:518 [Xcode] 
+2019-07-17 18:42:16:518 [Xcode] Test session results and logs:
+2019-07-17 18:42:16:519 [Xcode] 	/Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Logs/Test/Test-WebDriverAgentRunner-2019.07.18_02-42-14-+0800.xcresult
+2019-07-17 18:42:16:519 [Xcode] 
+2019-07-17 18:42:16:520 [Xcode] ** TEST EXECUTE FAILED **
+2019-07-17 18:42:16:520 [Xcode] 
+2019-07-17 18:42:16:520 [Xcode] 
+2019-07-17 18:42:16:522 [Xcode] 
+2019-07-17 18:42:16:522 [Xcode] 
+2019-07-17 18:42:16:522 [Xcode] *** If you believe this error represents a bug, please attach the result bundle at /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Logs/Test/Test-WebDriverAgentRunner-2019.07.18_02-42-14-+0800.xcresult
+2019-07-17 18:42:16:522 [Xcode] 
+2019-07-17 18:42:16:523 [Xcode] Testing started on 'Fency’s iPhone'
+2019-07-17 18:42:16:523 [Xcode] 
+2019-07-17 18:42:16:527 [XCUITest] xcodebuild exited with code '65' and signal 'null'
+2019-07-17 18:42:16:541 [XCUITest] Launching WebDriverAgent on the device
+2019-07-17 18:42:16:543 [XCUITest] Carthage found: '/usr/local/bin/carthage'
+2019-07-17 18:42:16:544 [XCUITest] Killing running processes 'xcodebuild.*e5418248a5faf4e6e70f4f2116d16121b226c09d, iproxy 8100' for the device e5418248a5faf4e6e70f4f2116d16121b226c09d...
+2019-07-17 18:42:16:584 [XCUITest] 'pgrep -ifn xcodebuild.*e5418248a5faf4e6e70f4f2116d16121b226c09d' didn't detect any matching processes. Return code: 1
+2019-07-17 18:42:16:657 [XCUITest] iproxy exited with code 'null'
+2019-07-17 18:42:16:790 [XCUITest] 'pgrep -ifn iproxy 8100' didn't detect any matching processes. Return code: 1
+2019-07-17 18:42:16:791 [XCUITest] Starting iproxy to forward traffic from local port 8100 to device port 8100 over USB for the device e5418248a5faf4e6e70f4f2116d16121b226c09d
+2019-07-17 18:42:16:800 [XCUITest] iProxy is running and is listening on port #8100
+2019-07-17 18:42:16:801 [XCUITest] Beginning test with command 'xcodebuild build-for-testing test-without-building -project /usr/local/Cellar/node@8/8.16.0/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent/WebDriverAgent.xcodeproj -scheme WebDriverAgentRunner -derivedDataPath /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa -destination id=e5418248a5faf4e6e70f4f2116d16121b226c09d IPHONEOS_DEPLOYMENT_TARGET=12.3 GCC_TREAT_WARNINGS_AS_ERRORS=0 COMPILER_INDEX_STORE_ENABLE=NO' in directory '/usr/local/Cellar/node@8/8.16.0/lib/node_modules/appium/node_modules/appium-xcuitest-driver/WebDriverAgent'
+2019-07-17 18:42:16:802 [XCUITest] Output from xcodebuild will only be logged if any errors are present there. To change this, use 'showXcodeLog' desired capability
+2019-07-17 18:42:17:334 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:17:334 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:17:341 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-07-17 18:42:17:862 [XCUITest] Waiting up to 60000ms for WebDriverAgent to start
+2019-07-17 18:42:17:862 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:17:862 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:17:903 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-07-17 18:42:18:343 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:18:344 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:18:359 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-07-17 18:42:18:905 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:18:905 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:18:912 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-07-17 18:42:19:361 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:19:363 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:19:370 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-07-17 18:42:19:607 [XCUITest] Log file for xcodebuild test: /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Logs/Test/Test-WebDriverAgentRunner-2019.07.18_02-42-19-+0800.xcresult/2_Test/Diagnostics/WebDriverAgentRunner-1E4B4870-5A93-4EAE-8C8D-F81C3C008AE3/WebDriverAgentRunner-19601B49-8441-4B55-866A-4BC04DEDE70B/Session-WebDriverAgentRunner-2019-07-18_024219-AZmX3C.log
+2019-07-17 18:42:19:915 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:19:915 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:19:922 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-07-17 18:42:20:372 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:20:372 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:20:380 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-07-17 18:42:20:928 [WD Proxy] Matched '/status' to command name 'getStatus'
+2019-07-17 18:42:20:929 [WD Proxy] Proxying [GET /status] to [GET http://localhost:8100/status] with no body
+2019-07-17 18:42:20:938 [WD Proxy] Got an unexpected response: {"errno":"ECONNRESET","code":"ECONNRESET","syscall":"read"}
+2019-07-17 18:42:21:113 [Xcode] 2019-07-18 02:42:21.112 xcodebuild[79261:7145765]  iPhoneConnect: 📱<DVTiOSDevice (0x7ffe7ac83420), Fency’s iPhone, iPhone, 12.3.1 (16F203), e5418248a5faf4e6e70f4f2116d16121b226c09d> failed to install /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Build/Products/Debug-iphoneos/WebDriverAgentRunner-Runner.app - error Error Domain=com.apple.dtdevicekit Code=-402620395 "App installation failed" UserInfo={NSLocalizedDescription=App installation failed, com.apple.dtdevicekit.stacktrace=(
+2019-07-17 18:42:21:113 [Xcode] 	0   DTDeviceKitBase                     0x0000000112db7a56 DTDKCreateNSError + 113
+2019-07-17 18:42:21:113 [Xcode] 	1   DTDeviceKitBase                     0x0000000112db82c5 DTDK_AMDErrorToNSError + 1177
+2019-07-17 18:42:21:114 [Xcode] 	2   DTDeviceKitBase                     0x0000000112df8585 __90-[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:]_block_invoke + 158
+2019-07-17 18:42:21:114 [Xcode] 	3   DVTFoundation                       0x00000001067a9411 DVTInvokeWithStrongOwnership + 73
+2019-07-17 18:42:21:114 [Xcode] 	4   DTDeviceKitBase                     0x0000000112df82b2 -[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:] + 1439
+2019-07-17 18:42:21:114 [Xcode] 	5   IDEiOSSupportCore                   0x0000000112cf0279 __118-[DVTiOSDevice(DVTiPhoneApplicationInstallation) processAppInstallSet:appUninstallSet:installOptions:completionBlock:]_block_invoke.338 + 4146
+2019-07-17 18:42:21:114 [Xcode] 	6   DVTFoundation                       0x00000001068d933e __DVTDispatchAsync_block_invoke + 801
+2019-07-17 18:42:21:115 [Xcode] 	7   libdispatch.dylib                   0x00007fff61ed15f8 _dispatch_call_block_and_release + 12
+2019-07-17 18:42:21:115 [Xcode] 	8   libdispatch.dylib                   0x00007fff61ed263d _dispatch_client_callout + 8
+2019-07-17 18:42:21:115 [Xcode] 	9   libdispatch.dylib                   0x00007fff61ed88e0 _dispatch_lane_serial_drain + 602
+2019-07-17 18:42:21:116 [Xcode] 	10  libdispatch.dylib                   0x00007fff61ed9396 _dispatch_lane_invoke + 385
+2019-07-17 18:42:21:116 [Xcode] 	11  libdispatch.dylib                   0x00007fff61ee16ed _dispatch_workloop_worker_thread + 598
+2019-07-17 18:42:21:116 [Xcode] 	12  libsystem_pthread.dylib             0x00007fff62112611 _pthread_wqthread + 421
+2019-07-17 18:42:21:116 [Xcode] 	13  libsystem_pthread.dylib             0x00007fff621123fd start_wqthread + 13
+2019-07-17 18:42:21:116 [Xcode] ), NSLocalizedRecoverySuggestion=A valid provisioning profile for this executable was not found., NSLocalizedFailureReason=A valid provisioning profile for this executable was not found.}
+2019-07-17 18:42:21:117 [Xcode] 
+2019-07-17 18:42:21:120 [Xcode] 2019-07-18 02:42:21.118 xcodebuild[79261:7145717] [MT] IDETestOperationsObserverDebug: 1.523 elapsed -- Testing started completed.
+2019-07-17 18:42:21:120 [Xcode] 2019-07-18 02:42:21.118 xcodebuild[79261:7145717] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2019-07-17 18:42:21:121 [Xcode] 2019-07-18 02:42:21.119 xcodebuild[79261:7145717] [MT] IDETestOperationsObserverDebug: 1.523 sec, +1.523 sec -- end
+2019-07-17 18:42:21:125 [Xcode] 
+2019-07-17 18:42:21:126 [Xcode] 
+2019-07-17 18:42:21:126 [Xcode] 
+2019-07-17 18:42:21:126 [Xcode] *** If you believe this error represents a bug, please attach the result bundle at /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Logs/Test/Test-WebDriverAgentRunner-2019.07.18_02-42-19-+0800.xcresult
+2019-07-17 18:42:21:127 [Xcode] 
+2019-07-17 18:42:21:127 [Xcode] 
+2019-07-17 18:42:21:128 [Xcode] 2019-07-18 02:42:21.121 xcodebuild[79261:7145717] Error Domain=com.apple.dtdevicekit Code=-402620395 "App installation failed" UserInfo={NSLocalizedDescription=App installation failed, com.apple.dtdevicekit.stacktrace=(
+2019-07-17 18:42:21:128 [Xcode] 	0   DTDeviceKitBase                     0x0000000112db7a56 DTDKCreateNSError + 113
+2019-07-17 18:42:21:128 [Xcode] 	1   DTDeviceKitBase                     0x0000000112db82c5 DTDK_AMDErrorToNSError + 1177
+2019-07-17 18:42:21:129 [Xcode] 	2   DTDeviceKitBase                     0x0000000112df8585 __90-[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:]_block_invoke + 158
+2019-07-17 18:42:21:129 [Xcode] 	3   DVTFoundation                       0x00000001067a9411 DVTInvokeWithStrongOwnership + 73
+2019-07-17 18:42:21:129 [Xcode] 	4   DTDeviceKitBase                     0x0000000112df82b2 -[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:] + 1439
+2019-07-17 18:42:21:130 [Xcode] 	5   IDEiOSSupportCore                   0x0000000112cf0279 __118-[DVTiOSDevice(DVTiPhoneApplicationInstallation) processAppInstallSet:appUninstallSet:installOptions:completionBlock:]_block_invoke.338 + 4146
+2019-07-17 18:42:21:130 [Xcode] 	6   DVTFoundation                       0x00000001068d933e __DVTDispatchAsync_block_invoke + 801
+2019-07-17 18:42:21:130 [Xcode] 	7   libdispatch.dylib                   0x00007fff61ed15f8 _dispatch_call_block_and_release + 12
+2019-07-17 18:42:21:131 [Xcode] 	8   libdispatch.dylib                   0x00007fff61ed263d _dispatch_client_callout + 8
+2019-07-17 18:42:21:131 [Xcode] 	9   libdispatch.dylib                   0x00007fff61ed88e0 _dispatch_lane_serial_drain + 602
+2019-07-17 18:42:21:131 [Xcode] 	10  libdispatch.dylib                   0x00007fff61ed9396 _dispatch_lane_invoke + 385
+2019-07-17 18:42:21:132 [Xcode] 	11  libdispatch.dylib                   0x00007fff61ee16ed _dispatch_workloop_worker_thread + 598
+2019-07-17 18:42:21:132 [Xcode] 	12  libsystem_pthread.dylib             0x00007fff62112611 _pthread_wqthread + 421
+2019-07-17 18:42:21:132 [Xcode] 	13  libsystem_pthread.dylib             0x00007fff621123fd start_wqthread + 13
+2019-07-17 18:42:21:132 [Xcode] ), NSLocalizedRecoverySuggestion=A valid provisioning profile for this executable was not found., NSLocalizedFailureReason=A valid provisioning profile for this executable was not found.}
+2019-07-17 18:42:21:133 [Xcode] 
+2019-07-17 18:42:21:133 [Xcode] 
+2019-07-17 18:42:21:133 [Xcode] Testing failed:
+2019-07-17 18:42:21:134 [Xcode] 	Provisioning profile "iOS Team Provisioning Profile: com.fency.WebDriverAgentRunner" expired on Jul 17, 2019. (in target 'WebDriverAgentRunner')
+2019-07-17 18:42:21:134 [Xcode] 	WebDriverAgentRunner:
+2019-07-17 18:42:21:134 [Xcode] 		WebDriverAgentRunner-Runner.app encountered an error (Failed to install or launch the test runner. (Underlying error: App installation failed. A valid provisioning profile for this executable was not found.))
+2019-07-17 18:42:21:135 [Xcode] 
+2019-07-17 18:42:21:135 [Xcode] Test session results and logs:
+2019-07-17 18:42:21:136 [Xcode] 	/Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Logs/Test/Test-WebDriverAgentRunner-2019.07.18_02-42-19-+0800.xcresult
+2019-07-17 18:42:21:137 [Xcode] 
+2019-07-17 18:42:21:137 [Xcode] ** TEST EXECUTE FAILED **
+2019-07-17 18:42:21:137 [Xcode] 
+2019-07-17 18:42:21:137 [Xcode] 
+2019-07-17 18:42:21:138 [Xcode] Testing started on 'Fency’s iPhone'
+2019-07-17 18:42:21:138 [Xcode] 
+2019-07-17 18:42:21:150 [XCUITest] xcodebuild exited with code '65' and signal 'null'
+2019-07-17 18:42:21:151 [BaseDriver] Event 'wdaStartFailed' logged at 1563388941151 (02:42:21 GMT+0800 (China Standard Time))
+2019-07-17 18:42:21:152 [XCUITest] Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+2019-07-17 18:42:21:152 [XCUITest] xcodebuild error message:
+2019-07-17 18:42:21:153 [XCUITest] 
+2019-07-17 18:42:21:153 [XCUITest] 2019-07-18 02:42:21.112 xcodebuild[79261:7145765]  iPhoneConnect: 📱<DVTiOSDevice (0x7ffe7ac83420), Fency’s iPhone, iPhone, 12.3.1 (16F203), e5418248a5faf4e6e70f4f2116d16121b226c09d> failed to install /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Build/Products/Debug-iphoneos/WebDriverAgentRunner-Runner.app - error Error Domain=com.apple.dtdevicekit Code=-402620395 "App installation failed" UserInfo={NSLocalizedDescription=App installation failed, com.apple.dtdevicekit.stacktrace=(
+2019-07-17 18:42:21:153 [XCUITest] 	0   DTDeviceKitBase                     0x0000000112db7a56 DTDKCreateNSError + 113
+2019-07-17 18:42:21:153 [XCUITest] 	1   DTDeviceKitBase                     0x0000000112db82c5 DTDK_AMDErrorToNSError + 1177
+2019-07-17 18:42:21:154 [XCUITest] 	2   DTDeviceKitBase                     0x0000000112df8585 __90-[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:]_block_invoke + 158
+2019-07-17 18:42:21:154 [XCUITest] 	3   DVTFoundation                       0x00000001067a9411 DVTInvokeWithStrongOwnership + 73
+2019-07-17 18:42:21:154 [XCUITest] 	4   DTDeviceKitBase                     0x0000000112df82b2 -[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:] + 1439
+2019-07-17 18:42:21:154 [XCUITest] 	5   IDEiOSSupportCore                   0x0000000112cf0279 __118-[DVTiOSDevice(DVTiPhoneApplicationInstallation) processAppInstallSet:appUninstallSet:installOptions:completionBlock:]_block_invoke.338 + 4146
+2019-07-17 18:42:21:154 [XCUITest] 	6   DVTFoundation                       0x00000001068d933e __DVTDispatchAsync_block_invoke + 801
+2019-07-17 18:42:21:155 [XCUITest] 	7   libdispatch.dylib                   0x00007fff61ed15f8 _dispatch_call_block_and_release + 12
+2019-07-17 18:42:21:155 [XCUITest] 	8   libdispatch.dylib                   0x00007fff61ed263d _dispatch_client_callout + 8
+2019-07-17 18:42:21:156 [XCUITest] 	9   libdispatch.dylib                   0x00007fff61ed88e0 _dispatch_lane_serial_drain + 602
+2019-07-17 18:42:21:156 [XCUITest] 	10  libdispatch.dylib                   0x00007fff61ed9396 _dispatch_lane_invoke + 385
+2019-07-17 18:42:21:156 [XCUITest] 	11  libdispatch.dylib                   0x00007fff61ee16ed _dispatch_workloop_worker_thread + 598
+2019-07-17 18:42:21:161 [XCUITest] 	12  libsystem_pthread.dylib             0x00007fff62112611 _pthread_wqthread + 421
+2019-07-17 18:42:21:161 [XCUITest] 	13  libsystem_pthread.dylib             0x00007fff621123fd start_wqthread + 13
+2019-07-17 18:42:21:162 [XCUITest] ), NSLocalizedRecoverySuggestion=A valid provisioning profile for this executable was not found., NSLocalizedFailureReason=A valid provisioning profile for this executable was not found.}
+2019-07-17 18:42:21:162 [XCUITest] 2019-07-18 02:42:21.118 xcodebuild[79261:7145717] [MT] IDETestOperationsObserverDebug: 1.523 elapsed -- Testing started completed.
+2019-07-17 18:42:21:163 [XCUITest] 2019-07-18 02:42:21.118 xcodebuild[79261:7145717] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2019-07-17 18:42:21:163 [XCUITest] 2019-07-18 02:42:21.119 xcodebuild[79261:7145717] [MT] IDETestOperationsObserverDebug: 1.523 sec, +1.523 sec -- end
+2019-07-17 18:42:21:164 [XCUITest] *** If you believe this error represents a bug, please attach the result bundle at /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Logs/Test/Test-WebDriverAgentRunner-2019.07.18_02-42-19-+0800.xcresult
+2019-07-17 18:42:21:164 [XCUITest] 2019-07-18 02:42:21.121 xcodebuild[79261:7145717] Error Domain=com.apple.dtdevicekit Code=-402620395 "App installation failed" UserInfo={NSLocalizedDescription=App installation failed, com.apple.dtdevicekit.stacktrace=(
+2019-07-17 18:42:21:164 [XCUITest] 	0   DTDeviceKitBase                     0x0000000112db7a56 DTDKCreateNSError + 113
+2019-07-17 18:42:21:165 [XCUITest] 	1   DTDeviceKitBase                     0x0000000112db82c5 DTDK_AMDErrorToNSError + 1177
+2019-07-17 18:42:21:166 [XCUITest] 	2   DTDeviceKitBase                     0x0000000112df8585 __90-[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:]_block_invoke + 158
+2019-07-17 18:42:21:166 [XCUITest] 	3   DVTFoundation                       0x00000001067a9411 DVTInvokeWithStrongOwnership + 73
+2019-07-17 18:42:21:167 [XCUITest] 	4   DTDeviceKitBase                     0x0000000112df82b2 -[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:] + 1439
+2019-07-17 18:42:21:167 [XCUITest] 	5   IDEiOSSupportCore                   0x0000000112cf0279 __118-[DVTiOSDevice(DVTiPhoneApplicationInstallation) processAppInstallSet:appUninstallSet:installOptions:completionBlock:]_block_invoke.338 + 4146
+2019-07-17 18:42:21:168 [XCUITest] 	6   DVTFoundation                       0x00000001068d933e __DVTDispatchAsync_block_invoke + 801
+2019-07-17 18:42:21:169 [XCUITest] 	7   libdispatch.dylib                   0x00007fff61ed15f8 _dispatch_call_block_and_release + 12
+2019-07-17 18:42:21:169 [XCUITest] 	8   libdispatch.dylib                   0x00007fff61ed263d _dispatch_client_callout + 8
+2019-07-17 18:42:21:169 [XCUITest] 	9   libdispatch.dylib                   0x00007fff61ed88e0 _dispatch_lane_serial_drain + 602
+2019-07-17 18:42:21:170 [XCUITest] 	10  libdispatch.dylib                   0x00007fff61ed9396 _dispatch_lane_invoke + 385
+2019-07-17 18:42:21:170 [XCUITest] 	11  libdispatch.dylib                   0x00007fff61ee16ed _dispatch_workloop_worker_thread + 598
+2019-07-17 18:42:21:170 [XCUITest] 	12  libsystem_pthread.dylib             0x00007fff62112611 _pthread_wqthread + 421
+2019-07-17 18:42:21:171 [XCUITest] 	13  libsystem_pthread.dylib             0x00007fff621123fd start_wqthread + 13
+2019-07-17 18:42:21:171 [XCUITest] ), NSLocalizedRecoverySuggestion=A valid provisioning profile for this executable was not found., NSLocalizedFailureReason=A valid provisioning profile for this executable was not found.}
+2019-07-17 18:42:21:171 [XCUITest] Testing failed:
+2019-07-17 18:42:21:171 [XCUITest] 	Provisioning profile "iOS Team Provisioning Profile: com.fency.WebDriverAgentRunner" expired on Jul 17, 2019. (in target 'WebDriverAgentRunner')
+2019-07-17 18:42:21:172 [XCUITest] 	WebDriverAgentRunner:
+2019-07-17 18:42:21:172 [XCUITest] 		WebDriverAgentRunner-Runner.app encountered an error (Failed to install or launch the test runner. (Underlying error: App installation failed. A valid provisioning profile for this executable was not found.))
+2019-07-17 18:42:21:172 [XCUITest] Test session results and logs:
+2019-07-17 18:42:21:172 [XCUITest] 	/Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Logs/Test/Test-WebDriverAgentRunner-2019.07.18_02-42-19-+0800.xcresult
+2019-07-17 18:42:21:173 [XCUITest] ** TEST EXECUTE FAILED **
+2019-07-17 18:42:21:173 [XCUITest] Testing started on 'Fency’s iPhone'. Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+2019-07-17 18:42:21:174 [XCUITest] Quitting and uninstalling WebDriverAgent
+2019-07-17 18:42:21:174 [XCUITest] Shutting down sub-processes
+2019-07-17 18:42:21:176 [XCUITest] Shutting down iproxy process (pid 79260)
+2019-07-17 18:42:21:180 [XCUITest] iproxy exited with code 'null'
+2019-07-17 18:42:21:181 [XCUITest] Removing WDA application from device
+2019-07-17 18:42:21:450 [XCUITest] Error: Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+2019-07-17 18:42:21:450 [XCUITest] xcodebuild error message:
+2019-07-17 18:42:21:450 [XCUITest] 
+2019-07-17 18:42:21:450 [XCUITest] 2019-07-18 02:42:21.112 xcodebuild[79261:7145765]  iPhoneConnect: 📱<DVTiOSDevice (0x7ffe7ac83420), Fency’s iPhone, iPhone, 12.3.1 (16F203), e5418248a5faf4e6e70f4f2116d16121b226c09d> failed to install /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Build/Products/Debug-iphoneos/WebDriverAgentRunner-Runner.app - error Error Domain=com.apple.dtdevicekit Code=-402620395 "App installation failed" UserInfo={NSLocalizedDescription=App installation failed, com.apple.dtdevicekit.stacktrace=(
+2019-07-17 18:42:21:451 [XCUITest] 	0   DTDeviceKitBase                     0x0000000112db7a56 DTDKCreateNSError + 113
+2019-07-17 18:42:21:451 [XCUITest] 	1   DTDeviceKitBase                     0x0000000112db82c5 DTDK_AMDErrorToNSError + 1177
+2019-07-17 18:42:21:451 [XCUITest] 	2   DTDeviceKitBase                     0x0000000112df8585 __90-[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:]_block_invoke + 158
+2019-07-17 18:42:21:451 [XCUITest] 	3   DVTFoundation                       0x00000001067a9411 DVTInvokeWithStrongOwnership + 73
+2019-07-17 18:42:21:451 [XCUITest] 	4   DTDeviceKitBase                     0x0000000112df82b2 -[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:] + 1439
+2019-07-17 18:42:21:452 [XCUITest] 	5   IDEiOSSupportCore                   0x0000000112cf0279 __118-[DVTiOSDevice(DVTiPhoneApplicationInstallation) processAppInstallSet:appUninstallSet:installOptions:completionBlock:]_block_invoke.338 + 4146
+2019-07-17 18:42:21:452 [XCUITest] 	6   DVTFoundation                       0x00000001068d933e __DVTDispatchAsync_block_invoke + 801
+2019-07-17 18:42:21:452 [XCUITest] 	7   libdispatch.dylib                   0x00007fff61ed15f8 _dispatch_call_block_and_release + 12
+2019-07-17 18:42:21:452 [XCUITest] 	8   libdispatch.dylib                   0x00007fff61ed263d _dispatch_client_callout + 8
+2019-07-17 18:42:21:452 [XCUITest] 	9   libdispatch.dylib                   0x00007fff61ed88e0 _dispatch_lane_serial_drain + 602
+2019-07-17 18:42:21:452 [XCUITest] 	10  libdispatch.dylib                   0x00007fff61ed9396 _dispatch_lane_invoke + 385
+2019-07-17 18:42:21:452 [XCUITest] 	11  libdispatch.dylib                   0x00007fff61ee16ed _dispatch_workloop_worker_thread + 598
+2019-07-17 18:42:21:453 [XCUITest] 	12  libsystem_pthread.dylib             0x00007fff62112611 _pthread_wqthread + 421
+2019-07-17 18:42:21:457 [XCUITest] 	13  libsystem_pthread.dylib             0x00007fff621123fd start_wqthread + 13
+2019-07-17 18:42:21:458 [XCUITest] ), NSLocalizedRecoverySuggestion=A valid provisioning profile for this executable was not found., NSLocalizedFailureReason=A valid provisioning profile for this executable was not found.}
+2019-07-17 18:42:21:458 [XCUITest] 2019-07-18 02:42:21.118 xcodebuild[79261:7145717] [MT] IDETestOperationsObserverDebug: 1.523 elapsed -- Testing started completed.
+2019-07-17 18:42:21:458 [XCUITest] 2019-07-18 02:42:21.118 xcodebuild[79261:7145717] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2019-07-17 18:42:21:458 [XCUITest] 2019-07-18 02:42:21.119 xcodebuild[79261:7145717] [MT] IDETestOperationsObserverDebug: 1.523 sec, +1.523 sec -- end
+2019-07-17 18:42:21:458 [XCUITest] *** If you believe this error represents a bug, please attach the result bundle at /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Logs/Test/Test-WebDriverAgentRunner-2019.07.18_02-42-19-+0800.xcresult
+2019-07-17 18:42:21:459 [XCUITest] 2019-07-18 02:42:21.121 xcodebuild[79261:7145717] Error Domain=com.apple.dtdevicekit Code=-402620395 "App installation failed" UserInfo={NSLocalizedDescription=App installation failed, com.apple.dtdevicekit.stacktrace=(
+2019-07-17 18:42:21:459 [XCUITest] 	0   DTDeviceKitBase                     0x0000000112db7a56 DTDKCreateNSError + 113
+2019-07-17 18:42:21:459 [XCUITest] 	1   DTDeviceKitBase                     0x0000000112db82c5 DTDK_AMDErrorToNSError + 1177
+2019-07-17 18:42:21:459 [XCUITest] 	2   DTDeviceKitBase                     0x0000000112df8585 __90-[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:]_block_invoke + 158
+2019-07-17 18:42:21:459 [XCUITest] 	3   DVTFoundation                       0x00000001067a9411 DVTInvokeWithStrongOwnership + 73
+2019-07-17 18:42:21:460 [XCUITest] 	4   DTDeviceKitBase                     0x0000000112df82b2 -[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:] + 1439
+2019-07-17 18:42:21:460 [XCUITest] 	5   IDEiOSSupportCore                   0x0000000112cf0279 __118-[DVTiOSDevice(DVTiPhoneApplicationInstallation) processAppInstallSet:appUninstallSet:installOptions:completionBlock:]_block_invoke.338 + 4146
+2019-07-17 18:42:21:460 [XCUITest] 	6   DVTFoundation                       0x00000001068d933e __DVTDispatchAsync_block_invoke + 801
+2019-07-17 18:42:21:460 [XCUITest] 	7   libdispatch.dylib                   0x00007fff61ed15f8 _dispatch_call_block_and_release + 12
+2019-07-17 18:42:21:460 [XCUITest] 	8   libdispatch.dylib                   0x00007fff61ed263d _dispatch_client_callout + 8
+2019-07-17 18:42:21:461 [XCUITest] 	9   libdispatch.dylib                   0x00007fff61ed88e0 _dispatch_lane_serial_drain + 602
+2019-07-17 18:42:21:461 [XCUITest] 	10  libdispatch.dylib                   0x00007fff61ed9396 _dispatch_lane_invoke + 385
+2019-07-17 18:42:21:462 [XCUITest] 	11  libdispatch.dylib                   0x00007fff61ee16ed _dispatch_workloop_worker_thread + 598
+2019-07-17 18:42:21:462 [XCUITest] 	12  libsystem_pthread.dylib             0x00007fff62112611 _pthread_wqthread + 421
+2019-07-17 18:42:21:462 [XCUITest] 	13  libsystem_pthread.dylib             0x00007fff621123fd start_wqthread + 13
+2019-07-17 18:42:21:462 [XCUITest] ), NSLocalizedRecoverySuggestion=A valid provisioning profile for this executable was not found., NSLocalizedFailureReason=A valid provisioning profile for this executable was not found.}
+2019-07-17 18:42:21:463 [XCUITest] Testing failed:
+2019-07-17 18:42:21:463 [XCUITest] 	Provisioning profile "iOS Team Provisioning Profile: com.fency.WebDriverAgentRunner" expired on Jul 17, 2019. (in target 'WebDriverAgentRunner')
+2019-07-17 18:42:21:463 [XCUITest] 	WebDriverAgentRunner:
+2019-07-17 18:42:21:463 [XCUITest] 		WebDriverAgentRunner-Runner.app encountered an error (Failed to install or launch the test runner. (Underlying error: App installation failed. A valid provisioning profile for this executable was not found.))
+2019-07-17 18:42:21:463 [XCUITest] Test session results and logs:
+2019-07-17 18:42:21:464 [XCUITest] 	/Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Logs/Test/Test-WebDriverAgentRunner-2019.07.18_02-42-19-+0800.xcresult
+2019-07-17 18:42:21:464 [XCUITest] ** TEST EXECUTE FAILED **
+2019-07-17 18:42:21:464 [XCUITest] Testing started on 'Fency’s iPhone'. Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+2019-07-17 18:42:21:464 [XCUITest]     at quitAndUninstall (/usr/local/Cellar/node@8/8.16.0/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:515:15)
+2019-07-17 18:42:21:465 [XCUITest] Not clearing log files. Use `clearSystemFiles` capability to turn on.
+2019-07-17 18:42:21:466 [iOSLog] Stopping iOS log capture
+2019-07-17 18:42:21:474 [BaseDriver] Event 'newSessionStarted' logged at 1563388941474 (02:42:21 GMT+0800 (China Standard Time))
+2019-07-17 18:42:21:475 [W3C] Encountered internal error running command: Error: Unable to launch WebDriverAgent because of xcodebuild failure: xcodebuild failed with code 65
+2019-07-17 18:42:21:475 [W3C] xcodebuild error message:
+2019-07-17 18:42:21:475 [W3C] 
+2019-07-17 18:42:21:475 [W3C] 2019-07-18 02:42:21.112 xcodebuild[79261:7145765]  iPhoneConnect: 📱<DVTiOSDevice (0x7ffe7ac83420), Fency’s iPhone, iPhone, 12.3.1 (16F203), e5418248a5faf4e6e70f4f2116d16121b226c09d> failed to install /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Build/Products/Debug-iphoneos/WebDriverAgentRunner-Runner.app - error Error Domain=com.apple.dtdevicekit Code=-402620395 "App installation failed" UserInfo={NSLocalizedDescription=App installation failed, com.apple.dtdevicekit.stacktrace=(
+2019-07-17 18:42:21:475 [W3C] 	0   DTDeviceKitBase                     0x0000000112db7a56 DTDKCreateNSError + 113
+2019-07-17 18:42:21:476 [W3C] 	1   DTDeviceKitBase                     0x0000000112db82c5 DTDK_AMDErrorToNSError + 1177
+2019-07-17 18:42:21:476 [W3C] 	2   DTDeviceKitBase                     0x0000000112df8585 __90-[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:]_block_invoke + 158
+2019-07-17 18:42:21:476 [W3C] 	3   DVTFoundation                       0x00000001067a9411 DVTInvokeWithStrongOwnership + 73
+2019-07-17 18:42:21:476 [W3C] 	4   DTDeviceKitBase                     0x0000000112df82b2 -[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:] + 1439
+2019-07-17 18:42:21:476 [W3C] 	5   IDEiOSSupportCore                   0x0000000112cf0279 __118-[DVTiOSDevice(DVTiPhoneApplicationInstallation) processAppInstallSet:appUninstallSet:installOptions:completionBlock:]_block_invoke.338 + 4146
+2019-07-17 18:42:21:477 [W3C] 	6   DVTFoundation                       0x00000001068d933e __DVTDispatchAsync_block_invoke + 801
+2019-07-17 18:42:21:477 [W3C] 	7   libdispatch.dylib                   0x00007fff61ed15f8 _dispatch_call_block_and_release + 12
+2019-07-17 18:42:21:478 [W3C] 	8   libdispatch.dylib                   0x00007fff61ed263d _dispatch_client_callout + 8
+2019-07-17 18:42:21:478 [W3C] 	9   libdispatch.dylib                   0x00007fff61ed88e0 _dispatch_lane_serial_drain + 602
+2019-07-17 18:42:21:478 [W3C] 	10  libdispatch.dylib                   0x00007fff61ed9396 _dispatch_lane_invoke + 385
+2019-07-17 18:42:21:478 [W3C] 	11  libdispatch.dylib                   0x00007fff61ee16ed _dispatch_workloop_worker_thread + 598
+2019-07-17 18:42:21:478 [W3C] 	12  libsystem_pthread.dylib             0x00007fff62112611 _pthread_wqthread + 421
+2019-07-17 18:42:21:479 [W3C] 	13  libsystem_pthread.dylib             0x00007fff621123fd start_wqthread + 13
+2019-07-17 18:42:21:479 [W3C] ), NSLocalizedRecoverySuggestion=A valid provisioning profile for this executable was not found., NSLocalizedFailureReason=A valid provisioning profile for this executable was not found.}
+2019-07-17 18:42:21:479 [W3C] 2019-07-18 02:42:21.118 xcodebuild[79261:7145717] [MT] IDETestOperationsObserverDebug: 1.523 elapsed -- Testing started completed.
+2019-07-17 18:42:21:479 [W3C] 2019-07-18 02:42:21.118 xcodebuild[79261:7145717] [MT] IDETestOperationsObserverDebug: 0.000 sec, +0.000 sec -- start
+2019-07-17 18:42:21:479 [W3C] 2019-07-18 02:42:21.119 xcodebuild[79261:7145717] [MT] IDETestOperationsObserverDebug: 1.523 sec, +1.523 sec -- end
+2019-07-17 18:42:21:479 [W3C] *** If you believe this error represents a bug, please attach the result bundle at /Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Logs/Test/Test-WebDriverAgentRunner-2019.07.18_02-42-19-+0800.xcresult
+2019-07-17 18:42:21:480 [W3C] 2019-07-18 02:42:21.121 xcodebuild[79261:7145717] Error Domain=com.apple.dtdevicekit Code=-402620395 "App installation failed" UserInfo={NSLocalizedDescription=App installation failed, com.apple.dtdevicekit.stacktrace=(
+2019-07-17 18:42:21:480 [W3C] 	0   DTDeviceKitBase                     0x0000000112db7a56 DTDKCreateNSError + 113
+2019-07-17 18:42:21:480 [W3C] 	1   DTDeviceKitBase                     0x0000000112db82c5 DTDK_AMDErrorToNSError + 1177
+2019-07-17 18:42:21:480 [W3C] 	2   DTDeviceKitBase                     0x0000000112df8585 __90-[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:]_block_invoke + 158
+2019-07-17 18:42:21:480 [W3C] 	3   DVTFoundation                       0x00000001067a9411 DVTInvokeWithStrongOwnership + 73
+2019-07-17 18:42:21:480 [W3C] 	4   DTDeviceKitBase                     0x0000000112df82b2 -[DTDKMobileDeviceToken installApplicationBundleAtPath:withOptions:andError:withCallback:] + 1439
+2019-07-17 18:42:21:481 [W3C] 	5   IDEiOSSupportCore                   0x0000000112cf0279 __118-[DVTiOSDevice(DVTiPhoneApplicationInstallation) processAppInstallSet:appUninstallSet:installOptions:completionBlock:]_block_invoke.338 + 4146
+2019-07-17 18:42:21:481 [W3C] 	6   DVTFoundation                       0x00000001068d933e __DVTDispatchAsync_block_invoke + 801
+2019-07-17 18:42:21:481 [W3C] 	7   libdispatch.dylib                   0x00007fff61ed15f8 _dispatch_call_block_and_release + 12
+2019-07-17 18:42:21:481 [W3C] 	8   libdispatch.dylib                   0x00007fff61ed263d _dispatch_client_callout + 8
+2019-07-17 18:42:21:481 [W3C] 	9   libdispatch.dylib                   0x00007fff61ed88e0 _dispatch_lane_serial_drain + 602
+2019-07-17 18:42:21:481 [W3C] 	10  libdispatch.dylib                   0x00007fff61ed9396 _dispatch_lane_invoke + 385
+2019-07-17 18:42:21:481 [W3C] 	11  libdispatch.dylib                   0x00007fff61ee16ed _dispatch_workloop_worker_thread + 598
+2019-07-17 18:42:21:482 [W3C] 	12  libsystem_pthread.dylib             0x00007fff62112611 _pthread_wqthread + 421
+2019-07-17 18:42:21:482 [W3C] 	13  libsystem_pthread.dylib             0x00007fff621123fd start_wqthread + 13
+2019-07-17 18:42:21:482 [W3C] ), NSLocalizedRecoverySuggestion=A valid provisioning profile for this executable was not found., NSLocalizedFailureReason=A valid provisioning profile for this executable was not found.}
+2019-07-17 18:42:21:482 [W3C] Testing failed:
+2019-07-17 18:42:21:482 [W3C] 	Provisioning profile "iOS Team Provisioning Profile: com.fency.WebDriverAgentRunner" expired on Jul 17, 2019. (in target 'WebDriverAgentRunner')
+2019-07-17 18:42:21:482 [W3C] 	WebDriverAgentRunner:
+2019-07-17 18:42:21:482 [W3C] 		WebDriverAgentRunner-Runner.app encountered an error (Failed to install or launch the test runner. (Underlying error: App installation failed. A valid provisioning profile for this executable was not found.))
+2019-07-17 18:42:21:483 [W3C] Test session results and logs:
+2019-07-17 18:42:21:483 [W3C] 	/Users/hu/Library/Developer/Xcode/DerivedData/WebDriverAgent-evuitwpuvvmoridefoqlnamrdroa/Logs/Test/Test-WebDriverAgentRunner-2019.07.18_02-42-19-+0800.xcresult
+2019-07-17 18:42:21:483 [W3C] ** TEST EXECUTE FAILED **
+2019-07-17 18:42:21:483 [W3C] Testing started on 'Fency’s iPhone'. Make sure you follow the tutorial at https://github.com/appium/appium-xcuitest-driver/blob/master/docs/real-device-config.md. Try to remove the WebDriverAgentRunner application from the device if it is installed and reboot the device.
+2019-07-17 18:42:21:483 [W3C]     at quitAndUninstall (/usr/local/Cellar/node@8/8.16.0/lib/node_modules/appium/node_modules/appium-xcuitest-driver/lib/driver.js:515:15)
+2019-07-17 18:42:21:504 [HTTP] <-- POST /wd/hub/session 500 15986 ms - 12359
+2019-07-17 18:42:21:504 [HTTP] 
+2019-07-17 18:47:07:204 [Appium] Received SIGINT - shutting down

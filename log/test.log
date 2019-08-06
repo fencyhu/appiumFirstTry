@@ -1,0 +1,11 @@
+2019-07-17 18:18:07:853 [Appium] Welcome to Appium v1.14.0
+2019-07-17 18:18:07:856 [Appium] Non-default server args:
+2019-07-17 18:18:07:856 [Appium]   port: 4701
+2019-07-17 18:18:07:857 [Appium]   sessionOverride: true
+2019-07-17 18:18:07:857 [Appium]   logFile: ../log/test.log
+2019-07-17 18:18:07:858 [Appium]   noReset: true
+2019-07-17 18:18:07:858 [Appium] Deprecated server args:
+2019-07-17 18:18:07:859 [Appium]   --no-reset => --default-capabilities '{"noReset":true}'
+2019-07-17 18:18:07:859 [Appium] Default capabilities, which will be added to each request unless overridden by desired capabilities:
+2019-07-17 18:18:07:859 [Appium]   noReset: true
+2019-07-17 18:18:07:911 [Appium] Appium REST http interface listener started on 0.0.0.0:4701
