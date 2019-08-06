@@ -1,5 +1,7 @@
 woshifencyhu
-woshidierhan我也死想该你啊g
+<<<<<<< HEAD
+woshidierhan 改的就是你g
+>>>>>>> branch1
 woshiyaochongtudewoshifencyhu
 woshidierhang
 woshiyaochongtudewoshifencyhu
